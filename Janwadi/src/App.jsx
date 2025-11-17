@@ -1,6 +1,8 @@
 import React from 'react'
 import Home from './components/homepage/Home'
 import Regestration from './components/Registration/Regestration.jsx'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import SignUp from './components/Registration/SignUp.jsx'
 
 
 const App = () => {
@@ -54,8 +56,13 @@ const App = () => {
   ]
   return (
     <div>
-      <Home ResolveSteps={ResolveSteps} issue={issue} />
-      {/* <Regestration/> */}
+      
+      <Routes>
+        <Route path='/' element={<Home ResolveSteps={ResolveSteps} issue={issue} />} />
+        <Route path='/SignIn' element={<Regestration/>} />
+        <Route path='/SignUp' element={<SignUp/>}/>
+      </Routes>
+      
     </div>
   )
 }

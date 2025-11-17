@@ -14,3 +14,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#Signupbg{
+    background-image: url('/formbgimg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
