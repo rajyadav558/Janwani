@@ -70,10 +70,10 @@ export default function SignUp() {
 
   return (
     <div> <Navbar/>
-    <div id="Signupbg" className="min-h-screen w-full bg-gray-100 flex justify-center items-center py-10">
+    <div id="Signupbg" className="min-h-screen w-full bg-gray-100 flex justify-center items-center py-10 px-10">
       <form
         onSubmit={handleSubmit}
-        className="bg-white p-6 rounded-xl shadow-lg w-150"
+        className="bg-white p-4 md:p-6 rounded-xl shadow-lg w-full max-w-lg"
       >
         <h2 className="text-2xl font-bold text-center mb-6">Sign Up</h2>
 

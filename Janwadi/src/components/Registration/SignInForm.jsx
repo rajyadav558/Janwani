@@ -45,10 +45,10 @@ export default function SignInForm() {
   };
 
   return (
-    <div className="w-full h-2/3  flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center w-full md:max-w-md">
       <form
         onSubmit={handleSubmit}
-        className="bg-white p-6 rounded-xl shadow-lg w-full h-full"
+        className="bg-white p-4 md:p-6 rounded-xl shadow-lg w-full max-w-sm md:max-w-md"
       >
         <h2 className="text-2xl font-semibold text-center mb-5">Sign In</h2>
 

@@ -54,9 +54,8 @@ const Navbar = () => {
               <span className="cursor-pointer">Contact</span>
               <div className="flex items-center gap-2">
                 {/* <p className="bg-green-600 text-white font-semibold py-1 px-3 rounded-2xl">Login</p> */}
-                <Link to='/login'><p className="bg-green-600 text-white font-semibold py-1 px-3 rounded-2xl">Login</p></Link>
-                <span>/</span>
-                <p className="text-white font-semibold py-1 px-3 rounded-2xl bg-orange-400">Register</p>
+                <Link to='/SignIn'><p className="bg-green-600 text-white font-semibold py-1 px-3 rounded-2xl">Login</p></Link>
+                
               </div>
             </div>
           </div>
